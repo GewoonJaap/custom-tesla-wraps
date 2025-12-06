@@ -1,53 +1,98 @@
-# Custom Wrap Images for Tesla Cybertruck
+# Custom Wrap Images for Tesla Vehicles
 
-Welcome to the Cybertruck Custom Wrap Images guide! This page will walk you through the steps to create and load custom wrap images onto your Tesla's 3D car visualization.
+This repository provides templates and examples for creating custom wrap designs for your Tesla's 3D vehicle visualization. Personalize your car's appearance in the Paint Shop with your own unique designs.
 
-## Getting Started
+## How to Use Custom Wraps
 
-To get started, you'll need to download the template image provided below. This template will give you guidelines on how to generate new wrap images. To use it, fill in the white parts of the template with the desired content, save it into a file and follow the steps below.
+1. **Download** the template for your specific vehicle model (see links below)
+2. **Edit** the template with your custom design (fill in the white areas)
+3. **Save** your design as a PNG file (512x512 to 1024x1024 pixels, max 1 MB)
+4. **Load** your wraps onto a USB drive in a folder called `Wraps`
+5. **Apply** in your Tesla: Toybox → Paint Shop → Wraps tab
 
-<a href="template/cybertruck/template.png"><img src="template/cybertruck/template.png?raw=true"/></a>
+## Select Your Vehicle
 
-You can find some examples under <a href="example/cybertruck">example/cybertruck</a>.
+Choose your vehicle to download the template and view example wraps:
 
-## Image Requirements
+<table>
+<tr>
+<td align="center" valign="top">
+<a href="cybertruck/"><img src="cybertruck/vehicle_image.png" width="200"/></a><br/>
+<a href="cybertruck/"><b>Cybertruck</b><br/></a>
+</td>
+<td align="center" valign="top">
+<a href="model3/"><img src="model3/vehicle_image.png" width="200"/></a><br/>
+<a href="model3/"><b>Model 3</b><br/></a>
+</td>
+<td align="center" valign="top">
+<a href="model3-2024-base/"><img src="model3-2024-base/vehicle_image.png" width="200"/></a><br/>
+<a href="model3-2024-base/"><b>Model 3 (2024+)</b><br/>Base & Premium</a>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+<a href="model3-2024-performance/"><img src="model3-2024-performance/vehicle_image.png" width="200"/></a><br/>
+<a href="model3-2024-performance/"><b>Model 3 (2024+)</b><br/>Performance</a>
+</td>
+<td align="center" valign="top">
+<a href="modely/"><img src="modely/vehicle_image.png" width="200"/></a><br/>
+<a href="modely/"><b>Model Y</b><br/></a>
+</td>
+<td align="center" valign="top">
+<a href="modely-2025-base/"><img src="modely-2025-base/vehicle_image.png" width="200"/></a><br/>
+<a href="modely-2025-base/"><b>Model Y (2025+)</b><br/>Base</a>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+<a href="modely-2025-premium/"><img src="modely-2025-premium/vehicle_image.png" width="200"/></a><br/>
+<a href="modely-2025-premium/"><b>Model Y (2025+)</b><br/>Premium</a>
+</td>
+<td align="center" valign="top">
+<a href="modely-2025-performance/"><img src="modely-2025-performance/vehicle_image.png" width="200"/></a><br/>
+<a href="modely-2025-performance/"><b>Model Y (2025+)</b><br/>Performance</a>
+</td>
+<td align="center" valign="top">
+<a href="modely-l/"><img src="modely-l/vehicle_image.png" width="200"/></a><br/>
+<a href="modely-l/"><b>Model Y L</b><br/></a>
+</td>
+</tr>
+</table>
 
-To ensure that your wrap images work correctly, please follow these guidelines:
+## Requirements & Setup
 
-* **Resolution**: Images must be 1024x768 pixels.
+### Image Requirements
+
+* **Resolution**: 512x512 to 1024x1024 pixels (use template size for best results)
 * **File Size**: Images must be no larger than 1 MB.
-* **File Name**: Image names cannot contain special symbols and should be no longer than 30 characters.
+* **File Name**: Use alphanumeric characters, underscores, dashes, and spaces only (max 30 characters).
 * **File Format**: Images must be in PNG format.
 * **File Count**: Up to 10 images can be used at a time.
 
-## Loading Images onto a USB Drive
+### USB Drive Setup
 
-To use your wrap images you need to load them onto a USB drive:
-
-1. Create a folder called `Wraps` at the root level of the USB drive.
-2. Place your wrap images inside the `Wraps` folder.
-3. Ensure that the USB drive is formatted as one of the following:
+1. Format the USB drive as one of the following:
     + exFAT
     + FAT 32 (for Windows)
     + MS-DOS FAT (for Mac)
     + ext3
     + ext4
     + Note: NTFS is not currently supported
-4. Make sure the USB drive does not contain any map update or firmware update files.
+2. Create a folder called `Wraps` at the root level of the drive
+3. Place your PNG files inside the `Wraps` folder
+4. Ensure the drive doesn't contain map or firmware updates
 
-## Applying Wrap Images to Your Cybertruck
+### Applying Wraps in Your Vehicle
+Once loaded, wraps will appear in Toybox → Paint Shop → Wraps tab:
 
-To apply a wrap image to your Cybertruck visualization, follow these steps:
+<p>
+<img src="images/paint-shop-wraps-ct.png" width="400"/>
+<br/>
+<br/>
+<img src="images/paint-shop-wraps-m3.png" width="400"/>
+</p>
 
-1. Plug the USB drive into your truck's USB port.
-2. Navigate to Toybox -> Paint Shop.
-3. Switch to the Wraps tab.
-4. Select a wrap image from the list.
-5. Tap on the wrap image to apply it to the car visualization.
-
-<a href="images/cybertruck/paint-shop-wraps.png"><img src="images/cybertruck/paint-shop-wraps.png?raw=true"/></a>
-
-## Troubleshooting
+### Troubleshooting
 
 If you encounter any issues with loading or applying wrap images, please check the following:
 
